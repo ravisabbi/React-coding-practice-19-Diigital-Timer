@@ -1,0 +1,175 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right top, #ffffff, #cffcf1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #1e293b;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 42px;
+  }
+}
+
+.timer-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 250px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .timer-bg-container {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+.digital-timer-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+@media (min-width: 768px) {
+  .digital-timer-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.elapsed-timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  border: 0px solid;
+  border-radius: 100px;
+}
+
+@media (min-width: 768px) {
+  .elapsed-timer-container {
+    height: 180px;
+    width: 180px;
+    border-radius: 180px;
+  }
+}
+.elapsedTime {
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-bottom: 0px;
+  color: #00d9f5;
+}
+@media (min-width: 768px) {
+  .elapsedTime {
+    font-size: 40px;
+  }
+}
+
+.label-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 0px;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .label-text {
+    font-size: 16px;
+  }
+}
+
+.timer-controller-container {
+  display: flex;
+  align-items: center;
+}
+.time-controller-btn {
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnLabel {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #0f172a;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.startOrPauseIcon {
+  width: 24px;
+  margin: 10px;
+}
+.reset-icon {
+  width: 24px;
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  .btnLabel {
+    font-size: 35px;
+  }
+  .startOrPauseIcon {
+    width: 30px;
+  }
+  .reset-icon {
+    width: 30px;
+  }
+}
+.setTime-buttons-container {
+  display: flex;
+  align-items: center;
+}
+.setTimeBtn {
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  margin: 15px;
+  font-weight: 400;
+  outline: none;
+  cursor: pointer;
+}
+.stateTime {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5, #00d9f5);
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.setTimerLimitLabel {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.setTimerControlContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
